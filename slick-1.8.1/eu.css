@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    overflow: hidden;
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+.page:nth-child(1) {
+    background-color: burlywood;
+}
+.page:nth-child(2) {
+    background-color: blue;
+}
+.page:nth-child(3) {
+    background-color: red;
+}
+.carousel {
+    background-color: #36005e;
+    margin: 0;
+}
+.slick-dots {
+    bottom: 30px;
+}
+.slick-dots li button:before {
+    font-size: 27px;
+    width: 40px;
+}
+.slick-dots li {
+    width: 80px;
+}
+.slick-dots li.slick-active button:before {
+    color: white;
+}
+
+.about-me {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 40px;
+}
+.about-me p:nth-child(2) {
+    text-align:end;
+}
+.img-hello img:nth-child(1) {
+    width: 136px;
+    margin-bottom: -62px;
+    margin-left: 70px;
+}
+.about-me img {
+    z-index: 2;
+}
+p img {
+    z-index: 2;;
+}
+.bubble {
+    position: absolute;
+    opacity: 0.2;
+    width: 57em;
+    z-index: -1!important;
+}
+.coffee {
+    width: 150px;
+    justify-self: end;
+}
+.img-hello {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
