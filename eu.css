@@ -112,6 +112,7 @@ p img {
 .hobbies .bubble {
     position: absolute;
     right: -14%;
+    opacity: 0.5;
 }
 .hobbies-container {
     display: flex;
@@ -145,6 +146,11 @@ p img {
     text-align: right;
     margin-right: 20em;
 }
+.achievements .stars {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
 .conclusion {
     position: relative;
     height: -webkit-fill-available;
@@ -164,6 +170,14 @@ p img {
     text-align: center;
     width: 30%;
     font-size: 20px;
+}
+.slick-prev {
+    left: 30px;
+    z-index: 3;
+}
+.slick-next {
+    right: 30px;
+    z-index: 3;
 }
 @keyframes astro {
     0%   {transform: rotate(-10deg) translateX(0px);}
